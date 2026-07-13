@@ -1,0 +1,11 @@
+1- column, rows?
+2- what type of?
+3- missing data?
+info()
+metho
+
+1- number of rows and column
+2- column name
+3- int64 or float64 or an object 
+4- non null counts
+5- memory usage of the data frame
