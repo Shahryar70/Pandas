@@ -1,0 +1,23 @@
+1- select specific column
+2- filter rows
+3- combine multiple condition
+
+1- square brackets 
+2- boolean conditons
+
+selecting column:-
+in any data frame selecting any specific column is slectin column
+it will return a series
+it will return data frame.
+column = df["column name]
+subset = df["column1","colum2","...."]
+
+
+filtering rows:-
+filtering rows that met with specific condition
+we use boolean indexing
+#Syntax based on a single conditon:-
+filtered_Rows=  df[df["Column1"]> value]
+#combine multiple condition
+filtered_Rows = df[(df["Column1" > value]) & (df["Column2] < value)]
+
