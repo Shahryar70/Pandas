@@ -14,3 +14,4 @@ df["RiskLevel"]= df["BillAmount"]({
     "Diabetic": 'Medium',
     "Flu": 'Low'
 })
+df.to_sql("dim_patients",warehouse_conn, if_exists="replace")
